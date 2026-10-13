@@ -1,4 +1,6 @@
-# dc-vita — Dreamcast emulator for PS Vita
+# Slopcast — Dreamcast emulator for PS Vita
+
+AI DISCLOSURE: This was made entirely on betterdeepseek with a bit of troubleshooting by me. Use at your own risk 
 
 A from-scratch, minimalist Dreamcast emulator targeting the PlayStation Vita
 (Cortex-A9 @ 444 MHz, 512 MB RAM, PowerVR SGX543MP4+). Written in C11 with a
@@ -44,7 +46,7 @@ Place disc images at `ux0:data/dc-vita/roms/` (`.gdi`, `.cdi`, `.chd`).
 
 ## Build
 
-```sh
+```sh a bit of troubleshooti
 export VITASDK=/usr/local/vitasdk
 export PATH="$VITASDK/bin:$PATH"
 make -j$(nproc)
@@ -290,4 +292,8 @@ Vita's battery indicator drops less than half as fast as in "Performance".
 - **Not** supporting the Karaoke add-on.
 - **Not** running without a BIOS — the BIOS is a prerequisite, not a
   licensing workaround.
+
+
+
+
 
