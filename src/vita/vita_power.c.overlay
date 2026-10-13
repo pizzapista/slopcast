@@ -1,0 +1,11 @@
+/* NOTE: this file is intentionally NOT part of the build. It documents the
+ * one piece of vita_power.c that is referenced from vita_main.c but defined
+ * there through a forward declaration. Kept here so the intent is explicit
+ * and grep-able.
+ *
+ * The actual definition of vita_power_frame_time() lives in
+ * src/vita/vita_power.c and updates the internal last-frame-us value used
+ * by the adaptive governor.
+ *
+ * If you are reading this in the scaffold: nothing to do, this is a memo.
+ */
